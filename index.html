@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vue-Email-List</title>
     <!-- ----CSS---- -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- ----AXIOS---- -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
-    <!-- ----VUE---- -->
-    <script src=" https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
-  
+    <div id="app">
+        <h1> EMAIL LIST</h1>
+        <ul>
+            <li v-for="element in EmailsArray">
+                {{element}}
+            </li>
+        </ul>
+    </div>
 
-    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="java.js"></script>
   </body>
 </html>

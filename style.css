@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
